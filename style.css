@@ -1,0 +1,186 @@
+/* Navbar CSS */
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 25%; 
+    padding: 1%;
+    text-align: center;
+}
+.logo img {
+    width: 160px;
+    height: auto; 
+}
+
+nav {
+    width: 100%; 
+    text-align: center;
+    font-family: 'Lexend', sans-serif; 
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #333;
+    font-size: 18px;
+}
+
+/* Hero Image CSS */
+.heroImg {
+    height: 750px; 
+    padding: 10px 0px; 
+    background-color: #FFF5FA; 
+    text-align: center;
+}
+
+.heroImg h1, .heroImg h2, .heroImg p {
+    font-family: 'Lexend', sans-serif; 
+}
+
+.heroImg h1 {
+    font-size: 30px; 
+    margin-top: 20px; 
+}
+
+.content {
+    width: 50%; 
+    margin: 0 auto;
+}
+
+.content img {
+    width: 200px; 
+    height: auto; 
+    max-width: 100%; 
+    border-radius: 50%; 
+    margin-bottom: 0px;
+}
+
+.content p {
+    color: #333;
+    font-size: 18px;
+}
+
+.content button {
+    background-color: #C7EBFF; 
+    color: rgb(0, 89, 131);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.content button:hover {
+    background-color: hsl(201, 96%, 74%); 
+}
+
+/* My UX Skills section coded using CSS flex */
+.mySkills {
+    text-align: center;
+    padding: 80px 72px 50px; 
+    font-family: 'Lexend', sans-serif; 
+}
+
+.mySkills h1 {
+    margin-bottom: 30px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexContainer > div {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+.flexContainer img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* My UX Skills section coded using CSS flex */
+.mySkills {
+    text-align: center;
+    padding: 80px 72px 50px; 
+    font-family: 'Lexend', sans-serif; 
+}
+
+.mySkills h1 {
+    margin-bottom: 30px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexContainer > div {
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    text-align: center; /* Center the content inside div */
+}
+
+.flexContainer img {
+    max-width: 100%; /* Ensure image fits its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+}
+
+/* My Work Section Constructed using CSS Grid */
+.myWork {
+    text-align: center;
+    padding: 50px 72px; 
+    font-family: 'Lexend', sans-serif; 
+}
+.myWork h1 {
+    margin-bottom: 30px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+}
+
+.workGrid > div {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.workGrid > div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.workGrid > div > div {
+    margin-top: 10px;
+}
+
+
+/* Footer CSS */
+footer {
+    background-color: #FFF5FA; 
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    font-family: 'Lexend', sans-serif; 
+}
